@@ -1,0 +1,6 @@
+{
+  "name": "nsq-protocol",
+  "description": "The NSQ protocol for node.js implemented as a stream",
+  "version": "0.0.0",
+  "repository": "mafintosh/nsq-protocol"
+}
