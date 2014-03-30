@@ -19,6 +19,7 @@ var Protocol = function() {
 	this.push(VERSION);
 
 	this.on('finish', function() {
+		if (this._destroyed) return;
 		this.push(null);
 		this.destroy();
 	});
